@@ -18,7 +18,7 @@ const temp = true;
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator initialRouteName="TABS">
         <Stack.Screen name = "TABS" component= {Tabs} options={{headerShown: false}}/>
         <Stack.Screen name = "Settings" component={SettingsScreen}/>
         <Stack.Screen name = "SeeMore" component={SeeMoreScreen}/>
